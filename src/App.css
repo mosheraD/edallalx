@@ -1,0 +1,65 @@
+.text-blue{
+  color:  #1D69A7 !important;
+}
+.text-grey{
+  color: #8E8E8E !important;
+}
+.bg-blue{
+  background-color: #1D69A7;
+}
+.bg-lightgrey{
+  background-color: #F6FAF6 !important;
+}
+.bg-lightblue{
+  background-color: #EFEFFF !important;
+}
+.bg-black{
+  background-color: black !important;
+}
+.btn-blue{
+  background-color: #1D69A7;
+  color: white;
+  padding: 0.3rem 0.75rem;
+  border : none !important;
+  border-radius: 4px;
+}
+.btn-white{
+  background-color: white;
+  color: black;
+  padding: 0.3rem 0.75rem;
+  border : none !important;
+  border-radius: 4px;
+}
+.p-relative{
+  position: relative !important;
+}
+.p-absolute{
+  position: absolute !important;
+  
+}
+.d-web{
+  display: block !important;
+}
+.d-mob{
+  display: none !important;
+}
+button , button:focus{
+  outline: none !important;
+  box-shadow: none !important;
+}
+.text-webkit-center{
+  text-align: -webkit-center !important;
+}
+@media (max-width: 540px){
+      .d-web{
+        display: none !important;
+      }
+      .d-mob{
+        display: block !important;
+      }
+}
+@media (min-width: 1200px){
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+      max-width: 1180px !important;
+  }
+}
